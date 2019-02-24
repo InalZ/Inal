@@ -1,0 +1,196 @@
+body {
+  background-color: #e1e8f0;
+  margin: 0;
+}
+
+.header {
+  background-color: #1d1e22;
+  height: 80px;
+  text-align: center;
+}
+
+.hello-gif {
+  height: 100px;
+  left: 0;
+  position: absolute;
+  width: 100px;
+}
+
+.header-text a {
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2rem;
+  line-height: 2.5;
+  padding-left: 100px;
+  padding-right: 100px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #d8ab4e;
+}
+
+.body1 {
+  padding-top: 60px;
+  text-align: center;
+}
+
+h1 {
+  color: #b48c36;
+  display: inline-block;
+  font-family: 'Sacramento', cursive;
+  font-size: 6rem;
+  margin-bottom: 0;
+}
+
+h1:hover {
+  color: #d8ab4e;
+}
+
+.body1 p {
+  color: #111c30;
+  font-family: 'Cinzel', serif;
+  margin-top: 0;
+}
+
+hr {
+  border: dotted 5px #ffbe00;
+  border-bottom: none;
+  margin: 50px auto;
+  width: 30%;
+}
+
+h2 {
+  color: #01252a;
+  font-family: 'Cinzel', serif;
+  text-align: center;
+}
+
+.mfbook {
+  height: 500px;
+  line-height: 1.5;
+}
+
+.mfbook .lhg {
+  border-color: #cd5554;
+  border-style: dotted;
+  font-family: 'Dosis', sans-serif;
+  margin: 20px 200px;
+  padding: 50px;
+}
+
+.mfbook .lhg .lotr {
+  border-style: none;
+  float: left;
+  height: 200px;
+  position: relative;
+  right: 20px;
+  width: 200px;
+}
+
+.mfbook .lhg .hp {
+  border-style: none;
+  float: right;
+  height: 200px;
+  left: 20px;
+  margin-left: 10px;
+  position: relative;
+  top: 10px;
+  width: 170px;
+}
+
+.mfbook .lhg .got {
+  border-style: none;
+  float: left;
+  height: 260px;
+  position: relative;
+  right: 20px;
+  width: 200px;
+}
+
+.h3:hover {
+  color: #b48c36;
+}
+
+.bottom {
+  background-color: black;
+  color: white;
+  padding: 20px 0 10px;
+  text-align: center;
+}
+
+.social {
+  color: #d8ab4e;
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.3rem;
+  margin: 10px 20px 20px;
+  text-decoration: none;
+}
+
+.social:hover {
+  color: white;
+}
+
+.divc {
+  left: 370px;
+  position: relative;
+  width: 50%;
+}
+
+.form {
+  background-color: #f5f5f5;
+  border: none;
+  border-bottom: 2px solid #f8b500;
+  border-radius: 4px;
+  box-sizing: border-box;
+  display: block;
+  margin: 8px 0;
+  padding: 12px 20px;
+  width: 50%;
+}
+
+.form:focus {
+  background-color: #fbf9af;
+  border-radius: 4px;
+  transition: 0.8s;
+  width: 89%;
+}
+
+textarea {
+  background-color: #f5f5f5;
+  border: none;
+  border-bottom: 2px solid #f8b500;
+  border-radius: 4px;
+  display: block;
+  resize: none;
+}
+
+.contactme {
+  padding: 5px 10px;
+  color: #111c30;
+}
+
+.contactmeh2 {
+  font-family: 'Dosis', sans-serif;
+  font-size: 2rem;
+}
+
+label {
+  font-family: arial;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  left: 250px;
+  margin: 5px;
+  padding: 10px 20px;
+  position: relative;
+  top: 25px;
+}
+
+input[type=submit]:hover {
+  background-color: #4e9525;
+}
